@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Undergraduate student @ KAIST, School of Electrical Engineering
 
-You can use the [editor on GitHub](https://github.com/gobblygobble/gobblygobble.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### On-going individual projects:
+- [MBGA](https://github.com/gobblygobble/MBGA): Make Baseball Great Again, a pre-generation baseball game
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Finished individual projects:
+- [SimpleFC-Sim](https://github.com/gobblygobble/SimpleFC-Sim): a Simple Fully-Connected layer Simulator
+- [TPTPU-Sim](https://github.com/gobblygobble/tptpu-sim): a Toy-Purpose Tensor Processing Unit Simulator
 
-### Markdown
+### Finished projects from coursework at KAIST:
+- 2017 Spring: [**EE209**](https://github.com/gobblygobble/EE209) Programming Structure for Electrical Engineering - *C programming, assembly language, and system programming*
+- 2017 Fall: [**EE205**](https://github.com/gobblygobble/EE205) Data Structures and Algorithms for Electrical Engineering - *C++ programming*
+- 2018 Spring: [**EE415**](https://github.com/gobblygobble/EE415) Operating Systems and System Programming for Electrical Engineering - *pintOS project*
+- 2018 Spring: [**EE488**](https://github.com/gobblygobble/EE488-IML-) Special Topics in Electrical Engineering: Introduction to Machine Learning - *ML projects mainly in MATLAB*
+- 2018 Fall: [**EE312**](https://github.com/gobblygobble/EE312) Introduction to Computer Architecture - *implementing 32-bit RISC-V ISA via Verilog*
+- 2019 Spring: [**EE323**](https://github.com/gobblygobble/EE323) Computer Network - *socket/proxy programming & router/TCP programming*
+- 2019 Spring: [**EE488**](https://github.com/gobblygobble/EE488-PCA-PCSDL-) Special Topics in Electrical Engineering: Parallel Computer Architecture: Parallel Computing Systems for Deep Learning - *Cuda programming & GPGPU-Sim labs*
+- 2019 Fall: [**MAS410**](https://github.com/gobblygobble/MAS410) Introduction to Cryptography - *Basic cryptograpy assignments*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gobblygobble/gobblygobble.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Others:
+- [**About me**](/about)
+- Feel free to email me at **gobbly.gobble@gmail.com**
