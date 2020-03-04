@@ -18,5 +18,5 @@
 - 2019 Fall: [MAS410](https://github.com/gobblygobble/MAS410) Introduction to Cryptography - *Basic cryptograpy assignments*
 
 ### Others:
-- [*About me*](/about)
+- [About me](/about)
 - Feel free to email me at **gobbly.gobble@gmail.com**
