@@ -1,4 +1,4 @@
-## Undergraduate student @ KAIST, School of Electrical Engineering
+## gobblygobble
 
 ### On-going individual projects:
 - [MBGA](https://github.com/gobblygobble/MBGA): Make Baseball Great Again, a pre-generation baseball game, Jul. 2019 ~
