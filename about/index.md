@@ -13,7 +13,7 @@ I've studied about computer architectures for deep learning, including GPU and T
   Mar. 2019 ~ Aug. 2019<br>
   Jan. 2020 ~ 
   
-### Projects:
+### Notable Projects:
 -  Second place in [KAIST URP (Undergraduate Research Participation) program](http://kchannel.kaist.ac.kr/CH751-000) of 2018 Summer/Fall & Long-Term URP program Workshop<br>
   Topic: *Implementing Scalable Peer-to-Peer Network Simulation Framework for Comprehensive Vulnerability Assessment of Bitcoin Network*<br>
   Check out the results [here](https://portal.kaist.ac.kr/ennotice/student_notice/11551144979822)
