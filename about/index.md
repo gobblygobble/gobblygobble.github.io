@@ -1,7 +1,7 @@
-## Undergraduate student @ KAIST, School of Electrical Engineering
+## about gobblygobble:
 
-### About me:
-I am an undergraduate student in electrical engineering at KAIST. My current interest of study is in *computer architecture*.<br>
+### Hi,
+I am an undergraduate student majoring in *electrical engineering* at **KAIST**. My current interest of study is in *computer architecture*.<br>
 I've studied about computer architectures for deep learning, including GPU and TPU architectures. My recent focus has been on *computer architectures for recommendation systems utilizing deep learning*.
 
 ### Education:
