@@ -1,11 +1,12 @@
 ## Undergraduate student @ KAIST, School of Electrical Engineering
 
 ### On-going individual projects:
-- [MBGA](https://github.com/gobblygobble/MBGA): Make Baseball Great Again, a pre-generation baseball game
+- [MBGA](https://github.com/gobblygobble/MBGA): Make Baseball Great Again, a pre-generation baseball game, Jul. 2019 ~
 
 ### Finished individual projects:
-- [SimpleFC-Sim](https://github.com/gobblygobble/SimpleFC-Sim): a Simple Fully-Connected layer Simulator
-- [TPTPU-Sim](https://github.com/gobblygobble/tptpu-sim): a Toy-Purpose Tensor Processing Unit Simulator
+- [SimpleFC-Sim](https://github.com/gobblygobble/SimpleFC-Sim): a Simple Fully-Connected layer Simulator, Jun. 2019
+- [TPTPU-Sim](https://github.com/gobblygobble/tptpu-sim): a Toy-Purpose Tensor Processing Unit Simulator, Jun. 2019 ~ Aug. 2019
+- [Cache-Disabler](https://github.com/gobblygobble/cache-disabler): a cache-disabling Linux kernel module on 32-bit and 64-bit machines, Feb. 2020
 
 ### Finished projects from coursework at KAIST:
 - 2017 Spring: [EE209](https://github.com/gobblygobble/EE209) Programming Structure for Electrical Engineering - *C programming, assembly language, and system programming*
