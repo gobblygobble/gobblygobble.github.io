@@ -15,8 +15,11 @@
 - 2018 Spring: [EE488](https://github.com/gobblygobble/EE488-IML-) Special Topics in Electrical Engineering: Introduction to Machine Learning - *ML projects mainly in MATLAB*
 - 2018 Fall: [EE312](https://github.com/gobblygobble/EE312) Introduction to Computer Architecture - *implementing 32-bit RISC-V ISA via Verilog*
 - 2019 Spring: [EE323](https://github.com/gobblygobble/EE323) Computer Network - *socket/proxy programming & router/TCP programming*
-- 2019 Spring: [EE488](https://github.com/gobblygobble/EE488-PCA-PCSDL-) Special Topics in Electrical Engineering: Parallel Computer Architecture: Parallel Computing Systems for Deep Learning - *Cuda programming & GPGPU-Sim labs*
-- 2019 Fall: [MAS410](https://github.com/gobblygobble/MAS410) Introduction to Cryptography - *Basic cryptograpy assignments*
+- 2019 Spring: [EE488](https://github.com/gobblygobble/EE488-PCA-PCSDL-) Special Topics in Electrical Engineering: Parallel Computer Architecture: Parallel Computing Systems for Deep Learning - *CUDA programming & GPGPU-Sim labs*
+- 2019 Fall: [MAS410](https://github.com/gobblygobble/MAS410) Introduction to Cryptography - *basic cryptograpy assignments*
+- 2020 Spring: [EE405](https://github.com/gobblygobble/EE405) Electronics Design Lab. - *RoboCam: implementing three-wheeled robot with camera on BeagleBone Black*
+- 2020 Spring: [BiS400:MAS480](https://github.com/gobblygobble/MAS480) Special Topics in Bio and Brain Engineering / Topics in Mathematics: Advanced Intelligence - *image segmentation using U-Net and Attention U-Net*
+- 2020 Spring: [CS510](https://github.com/gobblygobble/gem5-mirror) Computer Architecture - *implementing L2 data TLB and static partitioned L2 cache in GEM5*
 
 ### Others:
 - [About me](/about)
