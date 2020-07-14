@@ -18,7 +18,7 @@
 - 2019 Spring: [EE488](https://github.com/gobblygobble/EE488-PCA-PCSDL-) Special Topics in Electrical Engineering: Parallel Computer Architecture: Parallel Computing Systems for Deep Learning - *CUDA programming & GPGPU-Sim labs*
 - 2019 Fall: [MAS410](https://github.com/gobblygobble/MAS410) Introduction to Cryptography - *basic cryptograpy assignments*
 - 2020 Spring: [EE405](https://github.com/gobblygobble/EE405) Electronics Design Lab. - *RoboCam: implementing three-wheeled robot with camera on BeagleBone Black*
-- 2020 Spring: [BiS400:MAS480](https://github.com/gobblygobble/MAS480) Special Topics in Bio and Brain Engineering / Topics in Mathematics: Advanced Intelligence - *image segmentation using U-Net and Attention U-Net*
+- 2020 Spring: [BiS400:MAS480](https://github.com/gobblygobble/MAS480) Special Topics in Bio and Brain Engineering / Topics in Mathematics: Advanced Intelligence - *image segmentation using U-Net and Attention U-Net in PyTorch*
 - 2020 Spring: [CS510](https://github.com/gobblygobble/gem5-mirror) Computer Architecture - *implementing L2 data TLB and static partitioned L2 cache in GEM5*
 
 ### Others:
