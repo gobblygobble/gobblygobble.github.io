@@ -18,6 +18,9 @@
 - 2020 Spring: [BiS400:MAS480](https://github.com/gobblygobble/MAS480) Special Topics in Bio and Brain Engineering / Topics in Mathematics: Advanced Intelligence - *image segmentation using U-Net and Attention U-Net in PyTorch*
 - 2020 Spring: [CS510](https://github.com/gobblygobble/gem5-mirror) Computer Architecture - *implementing L2 data TLB and static partitioned L2 cache in GEM5*
 
+### Diaries:
+- [Gdev](/gdev)
+
 ### Others:
 - [About me](/about)
 - Feel free to email me at **gobbly.gobble@gmail.com**
