@@ -1,8 +1,5 @@
 ## home
 
-### On-going individual projects:
-- [MBGA](https://github.com/gobblygobble/MBGA): Make Baseball Great Again, a pre-generation baseball game, Jul. 2019 ~
-
 ### Finished individual projects:
 - [SimpleFC-Sim](https://github.com/gobblygobble/SimpleFC-Sim): a Simple Fully-Connected layer Simulator, Jun. 2019
 - [TPTPU-Sim](https://github.com/gobblygobble/tptpu-sim): a Toy-Purpose Tensor Processing Unit Simulator, Jun. 2019 ~ Aug. 2019
