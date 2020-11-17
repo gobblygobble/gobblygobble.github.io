@@ -52,10 +52,58 @@ By looking into Gdev, I expect to understand how GPU drivers should be implement
   ```
   - After trying different solutions but having no success, I've decided to *change to using Nouveau* instaed of NVRM (NVIDIA proprietary driver)
 - Second attempt is to use Nouveau, and open-source NVIDIA GPGPU driver for Linux
-
+  - Follow instructions of [Using Gdev's user-space runtime library with Nouveau driver](https://github.com/CPFL/gdev/blob/master/docs/README.nouveau.md) and up to `make oldconfig` works well
+  - During `make`, there is an error that says:
+  ```
+  build error: code model kernel does not support PIC mode
+  ```
+  - This is because I'm trying to compile an old version kernel (Nouveau uses 2.6.x) with new `gcc` (problems with `gcc` with version 6+ or some `gcc-5`)
+  - I followed [this site](https://askubuntu.com/questions/851433/kernel-doesnt-support-pic-mode-for-compiling) to get a patch file from [here](https://lists.ubuntu.com/archives/kernel-team/2016-May/077178.html)
+  - However, actually calling `patch` does not work - I needed to actually write the following four lines trying to patch the thing into the Makefile of kernel:
+  ```
+  KBUILD_CFLAGS += $(call cc-option, -fno-pie)
+  KBUILD_CFLAGS += $(call cc-option, -no-pie)
+  KBUILD_AFLAGS += $(call cc-option, -fno-pie)
+  KBUILD_CPPFLAGS += $(call cc-option, -fno-pie)
+  ```
+  - Afterwards, compile is successful
+  - `sudo make modules_install install` has some minor warning/errors but we can move on
+  - After running `modprobe -r nouveau; modprobe nouveau modeset=1 noaccel=0`, two errors showed up:
+  ```
+  modprobe: ERROR: ../libkmod/libkmod-module.c:832 kmod_module_insert_module() could not find module by name='off'
+  modprobe: ERROR: could not insert 'off': Unknown symbol in module, or unknown parameter (see dmesg)
+  ```
+    - `dmesg -w` said some signature was not verified -> edited `.config` in `linux-2.6` directory after doing `make clean && make oldconfig` to add `CONFIG_MODULE_SIG=n` and `CONFIG_MODULE_SIG_ALL=n`  (I think this is so that it will stop asking for verifications of the device GPU)
+    - `modprobe` error occurs because NVIDIA performed some updates and the syntax for `.conf` files changed (or something similar happened)
+      - Error message seemed to say something like `off` did not exist, and on the internet, people have suggested finding a `~~~/modprobe.d/~~~~.conf` file that says `alias nvidia off` and comment it out (for thye acse of NVIDIA drivers)
+      - In my case, I needed the `nouveau` driver, so I found `/lib/modprobe.d/nvidia-graphics-drivers.conf` which had `alias nouveau off` and `aliast lbm-nouveau off` and I commented both of them out
+      - Also, because `modprobe nouveau modeset=1 noaccel=0` had an error that said the operation is not permitted to insert the module, I did `sudo modprobe nouveau modeset=1 noaccel=0` and no errors appeared
+  - After cloning the git `drm`, it is important to **change the branch of the git so that it has the Makefiles, scripts, and config files I need**
+  - I've changed to `libdrm-2.4.98`, which works with the installation of a few new packages
+  - In `sudo make install`, there's an error with copying libraries - but the library already exists in the targeted location
 
 ### Rebuilding Nouveau
-
+- Nouveau (DRM) library built is *not* used for Gdev + Nouveau builds
+- This is because, the default symbolic link is reset to the wrong Nouveau shared library `libdrm_nouveau.so.2.0.0`
+- To fix this, I've written a script that *relinks libdrm_nouveau:*
+```
+#!/bin/bash
+# file name: libdrm_nouveau-relink.sh
+ll /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+sudo rm /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+sudo ln -s /usr/lib/libdrm_nouveau.so.2.0.0 /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+```
+- Thus, the following script can rebuild Nouveau library and relink it immediately:
+```
+#!/bin/bash
+# file name: nouveau-rebuild.sh
+cd ~/drm
+make
+sudo make install
+cd
+# relink
+. libdrm_nouveau-relink.sh
+```
 
 ### Others:
 - [Home](/..)
