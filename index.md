@@ -23,4 +23,4 @@
 
 ### Others:
 - [About me](/about)
-- Feel free to email me at **gobbly.gobble@gmail.com**
+- Feel free to email me at **jinha.chung@kaist.ac.kr**
