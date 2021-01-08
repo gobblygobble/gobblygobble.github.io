@@ -1,17 +1,19 @@
-## about gobblygobble:
+## about Jinha Chung:
 
 ### Hi,
-I am an undergraduate student majoring in *electrical engineering* at **KAIST**. My current interest of study is in *computer architecture*.<br>
-I've studied about computer architectures for deep learning, including GPU and TPU architectures. My recent focus has been on *computer architectures for recommendation systems utilizing deep learning*.
+I am a graduate student (M.S. & Ph.D Integrated) majoring in *electrical engineering* at **KAIST**. My current interest of study is in *computer architecture*.<br>
+I've studied about computer architectures for deep learning, including GPU and TPU architectures.  
 
 ### Education:
 - [**KAIST** (Korea Advanced Institute of Science and Technology)](https://ee.kaist.ac.kr/?language=en), Daejeon, Korea [Mar. 2016 ~ Feb. 2021(expected)]<br>
   B.S. in Electrical Engineering, double major in Mathematical Sciences
+- [**KAIST** (Korea Advanced Institute of Science and Technology)](https://ee.kaist.ac.kr/?language=en), Daejeon, Korea [Mar. 2021 ~ ]<br>
+  Ph.D Candidate in Electrical Engineering
 
 ### Experiences:
 - Undergraduate research intern at [Vertically Integrated Architecture research group](https://sites.google.com/view/kaist-via)<br>
   Mar. 2019 ~ Aug. 2019<br>
-  Jan. 2020 ~ 
+  Jan. 2020 ~ Feb. 2021<br>
   
 ### Notable Projects:
 -  Second place in [KAIST URP (Undergraduate Research Participation) program](http://kchannel.kaist.ac.kr/CH751-000) of 2018 Summer/Fall & Long-Term URP program Workshop<br>
@@ -25,8 +27,8 @@ I've studied about computer architectures for deep learning, including GPU and T
 
 ### Languages:
 - Fluent in Korean and American English<br>
-  119/120 on [TOEFL iBT](https://www.ets.org/toefl/ibt/about) test taken on February 23, 2019
+  119/120 (Reading 29/30, Listening 30/30, Speaking 30/30, Writing 30/30) on [TOEFL iBT](https://www.ets.org/toefl/ibt/about) test taken on February 23, 2019
   
 ### Others:
 - [Home](/..)
-- Feel free to email me at **gobbly.gobble@gmail.com**
+- Feel free to email me at **jinha.chung@kaist.ac.kr**
